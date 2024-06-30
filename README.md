@@ -5,10 +5,10 @@
 - This token includes a simple store where users can redeem their tokens for store items.
 - The token also includes basic functionalities such as minting, burning, and transferring tokens.
 
-# Description
+## Description
 This contract is written in Solidity language, a programming language used for developing smart contracts on the Ethereum blockchain. In smart contract first we imported 3 libraries ERC20, Ownable, ERC@)Burnable. The DegenToken contract is an ERC20 token with additional functionality for membership tiers and token burning. Players can purchase tokens and be added to a minting queue managed by the owner. Tokens can be transferred, redeemed for various membership levels by burning specific amounts, and balance checks can be performed by users. The contract also allows the owner to burn tokens from any address for gas management purposes.
 
-# Overview
+## Overview
 - DegenToken is implemented using the OpenZeppelin ERC20 contract. The contract includes the following features:
 
 - Minting: Only the contract owner can mint new tokens.
@@ -18,7 +18,7 @@ This contract is written in Solidity language, a programming language used for d
 - Token Name: Degen
 - Token Symbol: DGN
 - Initial Supply: 0 DGN
-# Functions
+## Functions
 - Owner-Only Functions
 - mint(address to, uint256 amount)
 
@@ -37,7 +37,7 @@ This contract is written in Solidity language, a programming language used for d
 
 
 
-# To interact with the contract using Remix:
+## To interact with the contract using Remix:
 
 - Open Remix: Go to Remix IDE.
 - Load Contract: Copy and paste the contract code into a new file in Remix.
@@ -51,4 +51,5 @@ This contract is written in Solidity language, a programming language used for d
 
   ## Licence
 
+  This is created under MIT licence.
   
